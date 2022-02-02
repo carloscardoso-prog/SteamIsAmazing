@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=PT+Sans&display=swap');
+
+body{
+	background-color: #c7d5e0;
+	background-image: linear-gradient(to left, #00adee, #c7d5e0);	
+}
+
+footer{
+	border-top: 1px solid black;
+}
+
+footer p{
+	margin-left: 30%;
+}
+
+h1, a{
+	font-family: 'Montserrat', sans-serif;
+}
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	font-family: 'PT Sans', sans-serif;
+}
+
+section{
+	display: block;
+}
+
+table{
+	border-spacing: 0px;
+	border:1px solid black;
+}
+
+table td{
+	border: 1px solid black;
+	text-align: center;
+	vertical-align: top;
+}
+
+nav.menu-items{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 600px;
+}
+
+nav.menu-items ul{
+	text-transform: uppercase;
+	list-style: none;
+}
+
+nav.menu-items li{
+	display: inline-block;
+	background-color: #1b2838;
+	padding: 10px;
+}
+
+nav.menu-items li:hover{
+	cursor: pointer;
+	transition: background-color 1s;
+	background-color: #00adee;
+}
+
+nav.menu-items a{
+	text-decoration: none;
+	color: white;
+}
+
+table .ce{
+	color: white;
+	background-color: black;
+	vertical-align: top;
+}
+
+table .cd{
+	color: white;
+	background-color: gray;
+	vertical-align: top;
+}

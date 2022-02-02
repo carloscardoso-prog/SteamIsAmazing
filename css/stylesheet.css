@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=PT+Sans&display=swap');
+
+body{
+	background-image: linear-gradient(to left, #00adee, #c7d5e0);	
+}
+
+h2{
+	text-align: center;
+}
+
+p{
+	text-indent: 50px;
+	text-align: justify;
+	font-family: 'PT Sans', sans-serif;
+}
+
+figcaption{
+	opacity: 0;
+	position: absolute;
+	background-color: #2a475e;	
+	top:0px;
+	width: 100%;
+	text-align: center;
+	transition: opacity 1s;
+}
+
+h1, h2, title, a, h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+	border-top: 1px solid black;
+}
+
+footer p{
+	margin-left: 30%;
+}
+
+div#corpo {
+	width: 1000px;
+	background-color: #add8e6;
+	padding: 0px 10px 5px 10px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+header#cabecalho{
+	border-bottom: 1px solid black;
+	width: 81%;
+	height: 200px;
+}
+
+header#cabecalho img{
+	position: absolute;
+	left: 990px;
+	top: 100px;
+	height: 180px;
+	width: 180px;
+}
+
+header#infopage h3, b, sup{
+	font-family: 'PT Sans', sans-serif;
+	color: rgba(0,0,0,0.8);
+}
+
+h1.titulo{
+	color: #171a21;
+	font-size: 30pt;
+	font-family: arial;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+h2.subtitulo{
+	color: rgba(0,0,0,0.5);
+	margin-right: 27%;
+}
+
+figure.imagem-steam-epic:hover figcaption{
+	opacity: 0.9;
+}
+
+figure.imagem-steam-epic{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	border: 10px solid #2a475e;
+	margin: 0 auto;
+	box-shadow: 1px 1px 4px #1b2838;
+}
+
+figure.imagem-steam-epic img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.imagem-steam-epic h3{
+	color: white;
+}
+
+nav.menu-items{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 600px;
+}
+
+nav.menu-items ul{
+	list-style: none;
+	text-transform: uppercase;
+}
+
+nav.menu-items li{
+	display: inline-block;
+	background-color: #1b2838;
+	padding: 10px;
+}
+
+nav.menu-items li:hover{
+	cursor: pointer;
+	transition: background-color 1s;
+	background-color: #00adee;
+}
+
+nav.menu-items a{
+	text-decoration: none;
+	color: white;
+}
